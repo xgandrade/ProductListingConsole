@@ -12,6 +12,7 @@ Este é um aplicativo de console em C# que permite listar e gerenciar produtos. 
 ## Estrutura do Projeto
 O projeto está organizado em várias pastas, conforme descrito abaixo:
 
+```bash
 /ProductListingConsole
 │
 ├── /Domain                 # Contém as entidades de domínio
