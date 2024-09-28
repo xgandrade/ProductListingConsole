@@ -15,21 +15,21 @@ O projeto está organizado em várias pastas, conforme descrito abaixo:
 ```bash
 /ProductListingConsole
 │
-├── /Domain                 # Contém as entidades de domínio
-│   ├── Produto.cs          # Classe Produto (entidade de domínio)
-|   |── / Enums             # Contém os Enums de domínio
+├── /Domain                     # Contém as entidades de domínio
+│   ├── Produto.cs              # Classe Produto (entidade de domínio)
+│   ├── / Enums                 # Contém os Enums de domínio
 │       ├── TipoProduto.cs      # Enum TipoProduto
 │
 ├── /Interfaces                 # Contém as interfaces (contratos)
 │   ├── IProdutoRepository.cs   # Interface do repositório de produtos
 │
-├── /Repositories             # Implementações dos repositórios
-│   ├── ProdutoRepository.cs  # Implementação do repositório de produtos
+├── /Repositories               # Implementações dos repositórios
+│   ├── ProdutoRepository.cs    # Implementação do repositório de produtos
 │
-├── /Services                 # Lógica de negócios e regras de validação
-│   ├── ProdutoService.cs     # Serviço de produto (lógica de negócios)
+├── /Services                   # Lógica de negócios e regras de validação
+│   ├── ProdutoService.cs       # Serviço de produto (lógica de negócios)
 │
-└── Program.cs              # Ponto de entrada do programa
+└── Program.cs                  # Ponto de entrada do programa
 
 
 ## Tecnologias Utilizadas
